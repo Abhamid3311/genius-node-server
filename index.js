@@ -58,9 +58,9 @@ async function run() {
 run().catch(console.dir);
 
 app.get('/', (req, res) => {
-    res.send('running genius car server')
+    res.send('running genius car server for tasting')
 });
 
 app.listen(port, () => {
-    console.log('app is listening', port);
+    console.log('server is listening', port);
 })
